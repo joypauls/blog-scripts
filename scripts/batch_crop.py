@@ -2,8 +2,8 @@ import os
 import argparse
 import cv2
 
-RAW_PATH = "./data/low_light_sequence_20231227/raw/iso6400"
-PROCESSED_PATH = "./data/low_light_sequence_20231227/processed/iso6400"
+RAW_PATH = "./data/low_light_sequence_20231227/raw/iso1600"
+PROCESSED_PATH = "./data/low_light_sequence_20231227/processed/iso1600"
 
 
 def process_directory(x: int, y: int, width: int, height: int):
